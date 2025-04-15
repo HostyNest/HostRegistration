@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Become a Host Family</title>
     <style>
+.header-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: auto;
+    z-index: 10;
+}
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -111,6 +124,11 @@
                 margin: 10px;
                 padding: 15px;
             }
+.logo {
+        width: 90px;
+        top: 0px;
+        left: 0px;
+    }
             .cards {
                 grid-template-columns: 1fr;
                 gap: 10px;
@@ -142,7 +160,10 @@
     </style>
 </head>
 <body>
+    <div class="header-wrapper">
+    <img src="https://ohiqtiyvbsdrioqrbuqi.supabase.co/storage/v1/object/public/publicimages//logo.jpeg" alt="Logo" class="logo">
     <img src="https://ohiqtiyvbsdrioqrbuqi.supabase.co/storage/v1/object/public/publicimages/homepage-image.jpeg" alt="Host Family" class="header-image">
+</div>
     <div class="container">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSckdFzeWcFVAp0681a6iSCj8t4tZLpdyrZ3Mv4EtNF5bcXa1w/viewform?usp=dialog" class="btn top-right-button" target="_blank">Register Now</a>
         <h1>Interested in Becoming a Host Family?</h1>
